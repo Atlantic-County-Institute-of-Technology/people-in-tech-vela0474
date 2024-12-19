@@ -1,22 +1,42 @@
 /* Joshua Velasquez, 12-18-24 */
 
-a Elon-Musk {
-    width: 450;
-    height: 600;
+body{
+    background:rgb(187, 233, 233);
+    color:black;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:18px;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
 }
     table {
-    font-family:'Times New Roman', Times, serif, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    border-collapse:collapse;
+    width: 80%;
 }
 
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
+ tr {
+    border: 5px solid red;
+    text-align: right;
+    padding: 7px;
 }
 
-tr:nth-child(even) {
-    background-color: #dddddd;
+th {
+    border:5px solid green;
+    text-align: center;
+    padding: 5px;
 }
-   
+
+td {
+    border:5px solid rgb(204, 100, 9);
+    text-align:center;
+    padding: 5px;
+}
+    
+    tr:nth-child(even) {
+    background-color: lightyellow;
+} 
+
